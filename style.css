@@ -71,6 +71,7 @@ main {
 
 .cell {
     background-color: rgb(167, 43, 43);
+    border: 0.01px solid rgb(167, 43, 43);
 }
 
 .buttoncolor {
