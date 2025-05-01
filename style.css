@@ -1,0 +1,126 @@
+/* Не забудь подключить нужные шрифты. Удачи в разработке! */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Oswald';
+}
+
+p{
+    margin: 0;
+}
+
+.main-title {
+    margin: 0;
+    background-color: #4682B4;
+    display: flex;
+}
+
+.title {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-image: url(https://img.goodfon.ru/original/1920x1080/1/f8/8bit-8bit-grafika-les-retro-fon-pikseli-pxl.jpg);
+    padding: 7vw;
+}
+
+#spec {
+    font-size: 15vh;
+    font-weight: 600;
+}
+
+.skycolor {
+    color: #7FFFD4;
+    text-shadow: rgb(0, 55, 205) 1px 0 10px;
+}
+
+#buttonone {
+    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    border-color: rgb(0, 0, 0);
+    font-size: 5vh;
+    font-family: 'Oswald';
+    border-radius: 10px;
+}
+
+#buttonone:active {
+    margin: 0.2vw;
+}
+
+main {
+    background-color: #7CD434;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.field {
+    background-color: rgb(254, 228, 196);
+    width: 90vw;
+    height: 45vw;
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    gap: .5px ;
+}
+
+.cell {
+    background-color: rgb(167, 43, 43);
+}
+
+.buttoncolor {
+    width: 3.5vw;
+    height: 5vh;
+}
+
+.buttontool {
+    width: 3.5vw;
+    height: 5vh;
+    color: white;
+    text-align: center;
+}
+
+.buttoncolor, .buttontool {
+    width: 5vw;
+    height: 5hw;
+    cursor: pointer;
+}
+
+.bittersweet {
+    background-color: #FF715B;
+}
+
+.pumpkin {
+    background-color: #ea7317;
+}
+
+.cadetgray {
+    background-color: #7B9EA8;
+}
+
+.paynegray {
+    background-color: #55636F;
+}
+
+.raisinblack {
+    background-color: #2E2836;
+}
+
+.cell:hover{
+    background-color: var(--current-color);
+    opacity: 0.5;
+}
+
+:root {
+    --current-color: rgb(167, 43, 43);
+    --default-color: rgb(167, 43, 43);
+}
+
+.selected {
+    border: 2px solid white;
+}
